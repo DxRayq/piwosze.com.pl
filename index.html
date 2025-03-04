@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piwosze.com.pl - Społeczność miłośników piwa i Minecraft</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+            <i class="fa-solid fa-beer-mug-empty"></i>
+            <h1>Piwosze.com.pl</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#servers">Serwery</a></li>
+                <li><a href="#how-to-join">Jak Dołączyć</a></li>
+                <li><a href="#admins">Administracja</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Piwosze.com.pl</h1>
+            <p>Społeczność miłośników piwa i dobrej zabawy w Minecraft!</p>
+            <div class="hero-buttons">
+                <a href="https://discord.gg/piwosze" class="btn discord" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-discord"></i> Dołącz do Discorda
+                </a>
+                <a href="minecraft://connect/piwosze.icsv.pl" class="btn minecraft">
+                    <i class="fa-solid fa-gamepad"></i> Dołącz do serwera MC
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="servers" class="servers">
+    <div class="container">
+        <h2><i class="fa-solid fa-server"></i> Nasze Serwery</h2>
+        <div class="server-cards">
+            <div class="server-card discord">
+                <div class="server-icon">
+                    <i class="fa-brands fa-discord"></i>
+                </div>
+                <h3>Serwer Discord</h3>
+                <p>Dołącz do naszej społeczności na Discordzie, gdzie organizujemy wydarzenia, konkursy i wspólnie planujemy rozwój serwera Minecraft.</p>
+                <a href="https://discord.gg/piwosze" class="btn" target="_blank" rel="noopener noreferrer">Dołącz do Discorda</a>
+            </div>
+            <div class="server-card minecraft">
+                <div class="server-icon">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+                <h3>Serwer Minecraft</h3>
+                <p>Nasz serwer Minecraft działa na wersji 1.21.4.</p>
+                <div class="server-details">
+                    <div class="detail">
+                        <span>Adres:</span>
+                        <span class="value">piwosze.icsv.pl</span>
+                    </div>
+                    <div class="detail">
+                        <span>Wersja:</span>
+                        <span class="value">1.21.4</span>
+                    </div>
+                    <div class="detail">
+                        <span>Tryb:</span>
+                        <span class="value">Survival</span>
+                    </div>
+                </div>
+                <a href="#how-to-join" class="btn">Jak dołączyć?</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="how-to-join" class="how-to-join">
+    <div class="container">
+        <h2><i class="fa-solid fa-circle-question"></i> Jak dołączyć do serwera?</h2>
+        <div class="steps">
+            <ol>
+                <li>Uruchom Minecraft w wersji 1.21.4</li>
+                <li>Wybierz "Multiplayer"</li>
+                <li>Kliknij "Add Server"</li>
+                <li>W polu "Server Address" wpisz: <span class="server-address">piwosze.icsv.pl</span></li>
+                <li>Kliknij "Done" i połącz się z serwerem</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<section id="admins" class="admins">
+    <div class="container">
+        <h2><i class="fa-solid fa-users"></i> Administracja</h2>
+        <div class="admin-cards" id="admin-container">
+            <!-- Admin cards will be loaded here by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-beer-mug-empty"></i>
+                <h2>Piwosze.com.pl</h2>
+            </div>
+            <div class="footer-links">
+                <h3>Linki</h3>
+                <ul>
+                    <li><a href="#home">Strona Główna</a></li>
+                    <li><a href="#servers">Serwery</a></li>
+                    <li><a href="#how-to-join">Jak Dołączyć</a></li>
+                    <li><a href="#admins">Administracja</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Kontakt</h3>
+                <p><i class="fa-brands fa-discord"></i> Discord: <a href="https://discord.gg/piwosze" target="_blank" rel="noopener noreferrer">discord.gg/piwosze</a></p>
+                <p><i class="fa-solid fa-gamepad"></i> Minecraft: piwosze.icsv.pl</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Piwosze.com.pl. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
