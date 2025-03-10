@@ -11,6 +11,7 @@
   --discord-color: #5865F2;
   --minecraft-color: #44bd32;
   --shop-color: #e11d48;
+  --status-color: #0891b2;
 }
 
 * {
@@ -188,6 +189,15 @@ nav ul li a:hover {
 
 .btn.shop:hover {
   background-color: #be123c;
+}
+
+.btn.status {
+  background-color: var(--status-color);
+  color: white;
+}
+
+.btn.status:hover {
+  background-color: #0369a1;
 }
 
 /* Servers Section */
